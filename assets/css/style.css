@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/circe');
+*{
+    font-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;;
+    list-style-type: none;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Circe', sans-serif;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    gap: 25.9px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.nav-list{
+    display: flex;
+    gap: 25.9px;
+    align-items: center;
+}
+
+.header-button{
+    font-size: 15px;
+}
+
+.button a {
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #263057;
+}
+
+.button{
+    background-color: #6984F0;
+    padding: 6px 18px;
+    border-radius: 30px;
+}
+
+.header-content{
+    background-color: #263057;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 43px 100px;
+}
+
+.content-box{
+    background-color: #fff;
+    padding: 140px 62px;
+    border-radius: 15px;
+}
+
+.big-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 90%;
+}
+
+.small-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 90%;
+}
+
+.button-tarif{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 10px 26px;
+    margin-top: 27px;
+}
